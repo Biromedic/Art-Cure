@@ -20,6 +20,7 @@ a{
 
 .how-to-reach{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(173, 173, 164);
 }
 
 .location-section{
@@ -422,9 +423,9 @@ a{
 }
 
 .sixth-section {
-  padding: 30px 0;
-  background-color: rgb(187, 187, 187);
-  filter: brightness(0.9);
+  padding: 20px 0;
+  background: rgb(91,91,92);
+  background: linear-gradient(193deg, rgba(91,91,92,1) 11%, rgba(111,111,111,1) 36%, rgba(128,130,131,1) 56%);
 }
 
 .sixth-section .containers {
