@@ -10,7 +10,7 @@ a{
 
 
 .blog-button{
-  color: rgb(150, 140, 140);
+  color: rgb(114, 106, 106);
 }
 
 
@@ -392,9 +392,9 @@ a{
 }
 
 .treatments-side{
-  background-image: url(../img/grey\ background.jpg);
+  background: rgb(202,202,213);
+  background: linear-gradient(193deg, rgba(202,202,213,1) 0%, rgba(152,148,148,1) 28%, rgba(125,138,145,1) 93%);
 }
-
 
 .gallery-side{
   background-image: url(../img/grey\ background.jpg);
@@ -404,7 +404,6 @@ a{
 .gallery-treatmens-by-treatments-side{
   background-image: url(../img/grey\ background.jpg);
 }
-
 
 .c-item{
   height: 650px;
@@ -416,7 +415,6 @@ a{
   filter:brightness(0.6)
 }
 
-
 #services{
   padding: 5%;
   background-image: url(../img/grey\ background.jpg);
@@ -424,8 +422,8 @@ a{
 
 .sixth-section {
   padding: 20px 0;
-  background: rgb(91,91,92);
-  background: linear-gradient(193deg, rgba(91,91,92,1) 11%, rgba(111,111,111,1) 36%, rgba(128,130,131,1) 56%);
+  background: rgb(202,202,213);
+background: linear-gradient(193deg, rgba(202,202,213,1) 0%, rgba(152,148,148,1) 28%, rgba(61,63,64,1) 100%);
 }
 
 .sixth-section .containers {

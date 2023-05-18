@@ -9,16 +9,3 @@ function changeBackGround() {
     }
 }
 window.addEventListener("scroll",changeBackGround)
-
-/*
-window.addEventListener('scroll', function() {
-    const element = document.querySelector('#treatments');
-    const position = element.getBoundingClientRect().top;
-    const screenHeight = window.innerHeight;
-    if (position < screenHeight * 0.1) {
-      element.classList.add('move-bg');
-    } else {
-      element.classList.remove('move-bg');
-    }
-  });
-*/
