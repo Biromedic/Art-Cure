@@ -66,8 +66,11 @@ a{
 
 
 .nav-item:hover .dropdown-menu, .nav-item.active .dropdown-menu {
-  /*display: block;  bak buraya; ? */ 
   background-color: #838883;
+}
+
+.navbar-nav .dropdown-toggle { /*navbardaki text değişimi*/
+  color: rgb(201, 196, 196) !important;
 }
 
 
@@ -118,7 +121,6 @@ a{
     margin-right: 100px;
   }
 }
-
 
 .navbar-transition{
   transition: all 0.5s;
@@ -243,7 +245,6 @@ a{
   background-image: url(../img/grey\ background.jpg);
 }
 
-
 .heading {
   font-size: 3rem;
   font-weight: bold;
@@ -289,25 +290,11 @@ a{
   }
 }
 
-.about-section{
-    padding: 60px 0;
-  background-image: url(../img/grey\ background.jpg);
-}
-
-
-
 .first-heading-about {
   font-size: 30px;
   margin-top: 0;
   color: beige;
 }
-
-.first-heading-aboutus {
-  font-size: 20px;
-  margin-top: 0;
-  color: beige;
-}
-
 
 .second-heading-about {
   font-size: 20px;
@@ -316,17 +303,13 @@ a{
 }
 
 .about-sum {
-  padding: 100px 0;
+  padding: 50px 0;
   background-image: url(../img/grey\ background.jpg);
 }
 
 .first-heading {
   font-size: 50px;
   margin-top: 0;
-}
-
-.content-box {
-  margin-top: 30px;
 }
 
 @media (max-width: 991.98px) {
@@ -378,38 +361,34 @@ a{
 }
 
 .content-box {
+  margin-top: 30px;
   font-size: 1.3rem;
   background-color: #b8b5b5;
-  border: 2px solid #ddd;
-  border-radius: 5px;
-  margin-left: 10%;
-  margin-right: 10%;
+  border: 2px  #ddd;
+  border-radius: 10px;
+  margin-right: 5%;
   font-family: 'Times New Roman', serif;
+  color: rgb(75, 75, 67);
 }
 
+@media only screen and (max-width: 768px) {
+  .content-box {
+    font-size: 1.1rem;
+    margin-right: 0;
+  }
+}
 
 .exp{
   font-size: 1.2rem;
   font-family: 'Times New Roman', serif;
   color: beige;
-
 }
 
 
 #treatments {
   padding: 5%;
   background-image: url(../img/grey\ background.jpg);
-/*  background-size: cover;
-  background-position: center;
-  transition: background-position 0.3s ease-in-out;
-*/
 }
-/*
-.move-bg {
-  background-position: 100% 0;
-}
-*/
-
 
 .treatments-side{
   background-image: url(../img/grey\ background.jpg);
@@ -442,16 +421,10 @@ a{
   background-image: url(../img/grey\ background.jpg);
 }
 
-
 .sixth-section {
   padding: 30px 0;
   background-color: rgb(187, 187, 187);
   filter: brightness(0.9);
-/*  background-image: url(../img/GOLD.png);
-  background-size: cover;
-  background-position: center;
-  filter: brightness(0.5);
-*/
 }
 
 .sixth-section .containers {
@@ -652,9 +625,6 @@ border-color: #e63d4f;
   display: block;
 }
 
-
-
-
 .footer-bottom {
   padding: 9px 0;
   background-image: url(../img/grey\ background.jpg);
@@ -663,7 +633,12 @@ border-color: #e63d4f;
 
 .footer-bg{
   background-color:rgb(182, 180, 180);
+  padding: 2%;
+}
 
-  padding: 5%;
+@media screen and (max-width: 767px) {
+  .footer-bg{
+    padding: 4%;  
+  }
 }
 
