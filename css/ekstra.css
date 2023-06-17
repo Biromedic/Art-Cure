@@ -321,14 +321,14 @@ a{
 @media (max-width: 991.98px) {
 
   .first-heading-about {
-    font-size: 30px;
+    font-size: 18px;
     margin-top: 0;
     color: beige;
   }
 
   .second-heading-about {
-    font-size: 30px;
-    margin-top: 0;
+    font-size: 18px;
+    margin-top: 10px;
     color: beige;
   }
 
@@ -636,7 +636,8 @@ border-color: #e63d4f;
 }
 
 .footer-bg{
-  background-color:rgb(182, 180, 180);
+  background: rgb(84,84,83);
+background: linear-gradient(153deg, rgba(84,84,83,1) 5%, rgba(140,138,136,1) 36%, rgba(144,137,133,1) 45%, rgba(194,180,175,1) 79%);
   padding: 2%;
 }
 
