@@ -108,12 +108,13 @@
       
 
       <section id="contact" class="sixth-section">
+        <form action="submit" method="post">
         <div class="container containers">
           <div class="text-content text-center">
             <h2 class="sec-heading text-uppercase">Contact With Us</h2>
-            <h3 class="sec-subheading">
-              Lorem ipsum dolor sit amet consectetur.
-            </h3>
+            <h5 class="sec-subheading">
+              Send us your details and the service you would like to receive. Our contact team will be happy to serve you
+            </h5>
           </div>
           <div class="content">
             <div class="left">
@@ -121,11 +122,11 @@
               <div class="name-subject-div">
                 <div class="form-row">
                   <i class="contact-icon fa fa-user"></i>
-                  <input type="text" placeholder="Full Name" required />
+                  <input name="FullName" type="text" placeholder="Full Name" required />
                 </div>
                 <div class="form-row">
                   <i class="fa fa-pencil-square" aria-hidden="true"></i>
-                  <input type="text" placeholder="Subject" required />
+                  <input name="Subject" type="text" placeholder="Subject" required />
                 </div>
               </div>
               <div class="mail-div">
@@ -133,7 +134,7 @@
                   <i class="fa fa-envelope" aria-hidden="true"></i>
                   <input
                     type="email"
-                    name=""
+                    name="email"
                     id=""
                     placeholder="E-mail"
                     required
@@ -146,7 +147,7 @@
                   <input type="tel" name="" id="" placeholder="Phone" required />
                 </div>
               </div>            
-              <a href="" class="button" style="background-color: #32383d; color: rgb(241, 241, 241); padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 4px; border: none;">Send Messeage</a>
+              <button class="button" type="submit"  style="background-color: #32383d; color: rgb(241, 241, 241); padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 4px; border: none;">Send Messeage</button>
             </div>
             <div class="right">
               <p class="medium-title">Contact Information</p>
@@ -169,6 +170,7 @@
             </div>
           </div>
         </div>
+      </form>
       </section>
 
       <section class="gallery-side p-3">
