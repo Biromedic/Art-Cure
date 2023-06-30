@@ -87,14 +87,14 @@ a{
 
 @media screen and (max-width: 991px) {
   .navbar-nav .nav-link{
-  color: rgb(255, 253, 253);
+  color: rgb(253, 253, 253) !important;
   }
   .navbar-nav .nav-item{
   padding: 5px 0;
   }
   .navbar-nav .dropdown-menu {
-  display: none;
-  position: static;
+    display: none;
+    position: static;
   }
   .navbar-nav .dropdown-menu.show {
   display: block;
@@ -116,6 +116,7 @@ a{
 
 @media (max-width: 991px) {
   .navbar-nav .contact-button a {
+    background-color: #696c6d;
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -208,6 +209,38 @@ a{
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
+.card-text-service{
+  font-size: 17px;
+}
+
+@media (max-width: 767px) {
+  .card img {
+  transition: none;
+  transform: scale(1) !important;
+  }
+  
+  .card:hover img {
+  transform: scale(1) !important;
+  box-shadow: none;
+  }
+  
+  .card:not(:hover) img {
+  transform: scale(1) !important;
+  }
+  
+  .treatment-card:hover .card-text {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .card-text-service{
+    font-size: 15px;
+  }
+  }
+
+
+
 .treatment-text {
   position: absolute;
   bottom: 0;
@@ -236,10 +269,6 @@ a{
   background-size: cover;
   background-position: center;
   filter: brightness(0.5);
-}
-
-.gallery-side{
-  background-image: url(../img/grey\ background.jpg);
 }
 
 .before-after-side{
@@ -310,7 +339,8 @@ a{
 
 .about-sum {
   padding: 50px 0;
-  background-image: url(../img/grey\ background.jpg);
+  background: rgb(84,84,83);
+  background: linear-gradient(180deg, rgba(84,84,83,1) 5%, rgba(144,137,133,1) 59%, rgba(194,180,175,1) 88%);
 }
 
 .first-heading {
@@ -392,8 +422,8 @@ a{
 
 
 #treatments {
-  padding: 5%;
-  background-image: url(../img/grey\ background.jpg);
+  background: rgb(84,84,83);
+  background: linear-gradient(162deg, rgba(84,84,83,1) 5%, rgba(144,137,133,1) 59%, rgba(194,180,175,1) 88%);
 }
 
 .treatments-side{
@@ -402,8 +432,8 @@ a{
 }
 
 .gallery-side{
-  background-image: url(../img/grey\ background.jpg);
-  position: relative;
+  background: rgb(84,84,83);
+  background: linear-gradient(0deg, rgba(84,84,83,1) 5%, rgba(144,137,133,1) 59%, rgba(194,180,175,1) 88%);
 }
 
 .gallery-treatmens-by-treatments-side{
@@ -421,14 +451,14 @@ a{
 }
 
 #services{
-  padding: 5%;
-  background-image: url(../img/grey\ background.jpg);
+  background: rgb(84,84,83);
+  background: linear-gradient(186deg, rgba(84,84,83,1) 38%, rgba(144,137,133,1) 73%, rgba(194,180,175,1) 88%);
 }
 
 .sixth-section {
   padding: 20px 0;
-  background: rgb(202,202,213);
-background: linear-gradient(193deg, rgba(202,202,213,1) 0%, rgba(152,148,148,1) 28%, rgba(61,63,64,1) 100%);
+  background: rgb(84,84,83);
+  background: linear-gradient(90deg, rgba(84,84,83,1) 5%, rgba(144,137,133,1) 59%, rgba(194,180,175,1) 88%);
 }
 
 .sixth-section .containers {
