@@ -79,13 +79,18 @@ a{
   padding-right: 50px;
 }
 
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-nav {
-    justify-content: end;
-  }
+.navbar-nav .contact-button a { 
+  background-color: #a9e9f5;
+  color: #424141;
+  border: 2px solid #4b4b4b;
+  border-radius: 9px;
+  padding: 5px 40px;
 }
 
 @media screen and (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav {
+    justify-content: end;
+  }
   .navbar-nav .nav-link{
   color: rgb(253, 253, 253) !important;
   }
@@ -103,24 +108,14 @@ a{
   }
   .navbar-toggler {
     background-color: rgb(131, 128, 128);
-  }
-}
-
-.navbar-nav .contact-button a { 
-  background-color: #a9e9f5;
-  color: #424141;
-  border: 2px solid #4b4b4b;
-  border-radius: 9px;
-  padding: 5px 40px;
-}
-
-@media (max-width: 991px) {
+  }  
   .navbar-nav .contact-button a {
     background-color: #696c6d;
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 100px;
+    padding: 5px 5px;
   }
 }
 
@@ -214,6 +209,11 @@ a{
 }
 
 @media (max-width: 767px) {
+
+  .card {
+    margin-bottom: 15px;
+  }
+
   .card img {
   transition: none;
   transform: scale(1) !important;
@@ -234,9 +234,17 @@ a{
   transition: opacity 0.3s ease, transform 0.3s ease;
   }
 
-  .card-text-service{
-    font-size: 15px;
+  .treatment-text{
+    display: block;
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    transition: none !important;
+    font-size: 14px;
   }
+  .card-text-service{
+    font-size: 16px;
+  }
+
   }
 
 
@@ -344,7 +352,7 @@ a{
 }
 
 .first-heading {
-  font-size: 50px;
+  font-size: 30px;
   margin-top: 0;
 }
 
@@ -398,13 +406,9 @@ a{
 
 .content-box {
   margin-top: 30px;
-  font-size: 1.3rem;
-  background-color: #b8b5b5;
-  border: 2px  #ddd;
-  border-radius: 10px;
-  margin-right: 5%;
+  font-size: 1.4rem;
   font-family: 'Times New Roman', serif;
-  color: rgb(75, 75, 67);
+  color: beige;
 }
 
 @media only screen and (max-width: 768px) {

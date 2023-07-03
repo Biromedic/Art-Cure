@@ -42,6 +42,10 @@ let button = document.querySelector('.blog-button');
 button.addEventListener("mouseover", animateButton);
 button.addEventListener("mouseout", resetButton);
 
+
+
+
+
 /* for the animation */ 
 lightbox.option({
   'resizeDuration': 200,
