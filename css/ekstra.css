@@ -373,20 +373,12 @@ a{
   .first-heading {
     font-size: 40px;
   }
-  
-  .about-sum {
-    padding: 80px 0;
-    background-color: silver;
-  }
+
 }
 
 @media (max-width: 767.98px) {
   .first-heading {
     font-size: 30px;
-  }
-  
-  .about-sum {
-    padding: 60px 0;
   }
 }
 
@@ -596,6 +588,25 @@ font-family: "Roboto Slab", serif;
 border-color: #e63d4f;
 }
 
+.success-message {
+  background-color: #c7f3d9;
+  border: 1px solid #68c39f;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #107253;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #721c24;
+}
+
+
 .sixth-section .containers .content .right {
   width: 350px;
   display: flex;
@@ -651,6 +662,101 @@ border-color: #e63d4f;
   }
 }
 
+.blog-section{
+  padding: 200px;
+  background: #d7ddd7;
+}
+
+.blog-section p{
+  font-size: 18px;
+  line-height: 1.6;
+  color: #3d3030;
+  margin-bottom: 20px;
+}
+
+.blog-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.blog-section .card{
+background-color: #dde2ff;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.blog-section img {
+  transition: none;
+  transform: scale(1) !important;
+  }
+
+.blog-section .card-title{
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.blog-section .card-subtitle{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.blog-section .btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.blog-section .btn:hover {
+  background-color: #0056b3;
+}
+
+ul.list-group {
+  background-color: #f8f9fa;
+}
+
+ul.list-group li {
+  font-size: 18px;
+  background-color: #dde2ff;
+  color: #333;
+  border-color: #ccc;
+}
+
+@media (max-width: 767px){
+  ul.list-group li {
+    font-size: 14px;
+  }
+  .blog-section{
+    padding: 20px;
+    margin-top: 150px;
+  }
+  .blog-section .container {
+    padding: 0 10px;
+  }
+  
+  .blog-section .card{
+    margin-bottom: 20px;
+  }
+  
+  .blog-section .card-title{
+    font-size: 18px;
+  }
+
+  .blog-section .card-subtitle{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+}
+
 .back-to-top-btn {
   position: fixed;
   bottom: 20px;
@@ -658,6 +764,8 @@ border-color: #e63d4f;
   display: none;
   z-index: 99;
 }
+
+
 
 .back-to-top-btn.show {
   display: block;
